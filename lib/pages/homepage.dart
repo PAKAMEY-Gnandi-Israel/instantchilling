@@ -24,26 +24,6 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         backgroundColor: Color(0xFFFAFAFA),
         elevation: 0,
-        leading: Icon(
-          Icons.menu,
-          color: Color(0xFF778087),
-        ),
-        actions: [
-          Padding(
-            padding: EdgeInsets.symmetric(horizontal: 8.0),
-            child: Icon(
-              Icons.favorite_border,
-              color: Color(0xFF778087),
-            ),
-          ),
-          Padding(
-            padding: EdgeInsets.symmetric(horizontal: 8.0),
-            child: Icon(
-              Icons.shopping_basket,
-              color: Color(0xFF778087),
-            ),
-          )
-        ],
       ),
 
       body: SingleChildScrollView(
@@ -54,9 +34,9 @@ class _HomePageState extends State<HomePage> {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                "Fashion Store",
+                "    Fashion Store",
                 style: TextStyle(fontSize: 28.0),
-                textAlign: TextAlign.left,
+                textAlign: TextAlign.center,
               ),
             ),
             Stack(

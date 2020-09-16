@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:instantchilling/bloc/navigation_bloc/navigation_bloc.dart';
 
 import 'sidebar.dart';
+import 'sidebar2.dart';
 
 class SideBarLayout extends StatelessWidget {
   @override
@@ -18,6 +19,7 @@ class SideBarLayout extends StatelessWidget {
               },
             ),
             SideBar(),
+            SideBar2(),
           ],
         ),
       ),
